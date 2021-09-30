@@ -4,28 +4,23 @@ justify-content: center;
 text-shadow: 2px blue;
 font-family: sans-serif;
 color: blue;
-font-size: larger;
-animation: fadeinin 2s;
+font-size: 100px;
+
 -webkit-animation: fadein 10s;
-animation-name: rotateMe;
-animation-duration: 0.0001s;
+animation-name: fadein;
+animation-duration: 1s;
 animation-timing-function: linear;
 animation-iteration-count: infinite;
 animation-play-state: running;
 }
 
-
 @keyframes fadein {
-    from {opacity: 0;}
-    to {opacity: 1;}
+    from {opacity: 0; transform: rotate(0deg);}
+    to {opacity: 1; transform: rotate(3deg);}
 }
 
 @-webkit-keyframes fadein{
-    from {opacity: 0;}
-    to {opacity: 1;}
+    from {opacity: 0; transform: rotate(0deg);}
+    to {opacity: 1; transform: rotate(3deg);}
 }
 
-@keyframes rotateMe {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(3deg);}
-}
