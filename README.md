@@ -14,3 +14,21 @@ Filer skal starte med stor bokstav
 
 
     Her kommer planen vår.
+Film
+Avatar  
+Hovedside
+Tittel
+Bakgrunnsbilde av menneskebasen i filmen.
+Dyster theme
+Hover funksjon på forskjellige partier i bildet.
+Puzzle transition:transform
+Puzzle solved – inn i side 2 (animert button)
+
+Andreside
+Bilde av hoved avatarene
+hover over avatarene = box med informasjon om avataren.
+Hover
+Animasjoner
+Target
+Return animert button (til hovedside)
+
