@@ -6,9 +6,9 @@ font-family: sans-serif;
 color: blue;
 font-size: larger;
 animation: fadeinin 2s;
--webkit-animation: fadein 2s;
+-webkit-animation: fadein 10s;
 animation-name: rotateMe;
-animation-duration: 11s;
+animation-duration: 0.0001s;
 animation-timing-function: linear;
 animation-iteration-count: infinite;
 animation-play-state: running;
@@ -26,6 +26,6 @@ animation-play-state: running;
 }
 
 @keyframes rotateMe {
-    from {transform: rotate(350deg);}
-    to {transform: rotate(10deg);}
+    from {transform: rotate(0deg);}
+    to {transform: rotate(3deg);}
 }
