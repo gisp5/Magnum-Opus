@@ -1,5 +1,14 @@
-#header {
+#header{
 display: flex;
 justify-content: center;
+text-shadow: 2px blue;
+font-family: sans-serif;
+color: blue;
+font-size: larger;
+animation: fadein-in 10s;
+}
 
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
