@@ -9,3 +9,8 @@ mellomrom før bruk av {
 naming av ID og Class skal starte med stor bokstav
 Filer skal starte med stor bokstav
 /* */ for kommentering av kode
+
+
+
+
+    Her kommer planen vår.
