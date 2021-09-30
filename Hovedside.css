@@ -1,3 +1,9 @@
+body {
+    background: url(images/page1.jpg);
+    background-size: cover;
+}
+
+
 #header{
 display: flex;
 justify-content: center;
@@ -23,4 +29,25 @@ animation-play-state: running;
     from {opacity: 0; transform: rotate(0deg);}
     to {opacity: 1; transform: rotate(3deg);}
 }
+.container {
+    position: relative;
+
+}
+#paragraf{
+
+    transition: transform .2s;
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+    color: burlywood;
+    width: 10px;
+    height: 10px;
+
+}
+#paragraf:hover{
+    transform: scale(90);
+
+
+}
+
 
