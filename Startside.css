@@ -1,19 +1,39 @@
 body {
     margin: 0;
-    overflow: hidden;
-    background: url(images/Startside.jpg);
-    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black
 }
 
+
+.Main_Container {
+    display:flex;
+    flex-direction: row;
+    width: 1024px;
+    height: 768px;
+    position: relative;
+    justify-content: center;
+    background-image: url(images/Startside.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.Main_Container>*{
+    position: absolute;
+}
 audio {
     display: none;
 }
 
+.Content {
+    padding-top: 10px;
+    left: 50%;
+    top: 0px;
+}
 
-#Header{position: absolute;
-    position: absolute;
-    left: 43vw;
-    top: 0vw;
+#Header {
+    background-color: black;
+    display: flex;
     text-shadow: 2px rgb(0, 0, 0);
     font-family: papyrus;
     color: rgb(45, 95, 187);
@@ -32,15 +52,13 @@ audio {
     to {opacity: 1; transform: rotate(3deg);}
 }
 
-.Container {
-    position: absolute;
-
+#link{
+    position: relative;
 }
 #Paragraf{
 
     transition: transform .2s;
-    position: absolute;
-    left: 1000px;
+    left: 100px;
     top: 100px;
     color: burlywood;
     width: 10px;
@@ -53,16 +71,19 @@ audio {
 }
 
 .Puzzles{
-    position: fixed;
+
     color: blue;
-    top: 30vw;
-    left: 45vw;
+    text-align: center;
 
 }
-
+.Puzzles>div{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+}
 #Puzzle1{
-    left: 10vw;
-
+    left: 1000px;
 }
 
 #Puzzle2{
@@ -87,10 +108,3 @@ audio {
     left: -600px;
 }
 
-.Puzzles div{
-    position: fixed;
-    border: 2px solid black;
-    width: 50px;
-    text-align: center;
-    
-}
