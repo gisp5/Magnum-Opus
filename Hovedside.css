@@ -3,6 +3,10 @@ body {
     background-size: cover;
 }
 
+audio {
+    display: none;
+}
+
 
 #header{
 display: flex;
