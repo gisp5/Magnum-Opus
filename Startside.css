@@ -53,8 +53,8 @@ audio {
 }
 
 .Puzzles{
+    position: fixed;
     color: blue;
-    position: absolute;
     top: 30vw;
     left: 45vw;
 
@@ -88,7 +88,7 @@ audio {
 }
 
 .Puzzles div{
-    position: relative;
+    position: fixed;
     border: 2px solid black;
     width: 50px;
     text-align: center;
