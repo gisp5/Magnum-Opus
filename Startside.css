@@ -1,0 +1,67 @@
+body {
+    background: url(images/Startside.jpg);
+    background-size: cover;
+}
+
+audio {
+    display: none;
+}
+
+
+#Header{
+display: flex;
+justify-content: center;
+text-shadow: 20px rgb(0, 0, 0);
+font-family: papyrus;
+color: rgb(45, 95, 187);
+font-size: 100px;
+
+animation-name: Fadein;
+animation-duration: 5s;
+animation-timing-function:initial;
+animation-iteration-count: 1;
+animation-play-state: running;
+animation-fill-mode: forwards;
+}
+
+@keyframes Fadein {
+    from {opacity: 0; transform: rotate(0deg);}
+    to {opacity: 1; transform: rotate(2deg);}
+}
+
+.Container {
+    position: relative;
+
+}
+#Paragraf{
+
+    transition: transform .2s;
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+    color: burlywood;
+    width: 10px;
+    height: 10px;
+
+}
+#Paragraf:hover{
+    transform: scale(90);
+
+}
+
+.Puzzles{
+    color: wheat;
+    position: absolute;
+    top: 25%;
+    left: 47%;
+}
+
+#Puzzle1{
+
+    pos
+}
+
+
+
+
+
