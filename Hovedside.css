@@ -50,7 +50,14 @@ animation-play-state: running;
 #paragraf:hover{
     transform: scale(90);
 
-
 }
+
+.puzzles{
+    color: wheat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
 
 
