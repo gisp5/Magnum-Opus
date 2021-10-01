@@ -1,4 +1,99 @@
 body {
     background-image: url(images/Hovedside.jpg);
     background-size: cover;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+audio {
+    display: none;
+}
+
+
+#Header{
+display: flex;
+justify-content: center;
+text-shadow: 2px rgb(0, 0, 0);
+font-family: papyrus;
+color: rgb(45, 95, 187);
+font-size: 100px;
+animation: Fadein 10s;
+animation-name: Fadein;
+animation-duration: 5s;
+animation-timing-function:initial;
+animation-iteration-count: 1;
+animation-play-state: running;
+animation-fill-mode: forwards;
+}
+
+@keyframes Fadein {
+    from {opacity: 0; transform: rotate(0deg);}
+    to {opacity: 1; transform: rotate(3deg);}
+}
+
+.Container {
+    position: relative;
+
+}
+#Paragraf{
+
+    transition: transform .2s;
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+    color: burlywood;
+    width: 10px;
+    height: 10px;
+
+}
+#Paragraf:hover{
+    transform: scale(90);
+
+}
+
+.Puzzles{
+    color: blue;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+
+}
+
+#Puzzle1{
+    position: relative;
+    top: 125px;
+    left: 230px;
+
+}
+
+#Puzzle2{
+    position: relative;
+    top: -170px;
+    left: 675px;
+
+}
+
+#Puzzle3{
+    position: relative;
+    top: -325px;
+    left: -675px;
+
+}
+
+#Puzzle4{
+    position: relative;
+    top: -20px;
+    left: 135px;
+}
+
+#Puzzle5{
+    position: relative;
+    top: 15px;
+    left: -600px;
+}
+
+
+
+
+>>>>>>> Stashed changes
