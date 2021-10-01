@@ -17,10 +17,11 @@ color: rgb(45, 95, 187);
 font-size: 100px;
 animation: fadein 10s;
 animation-name: fadein;
-animation-duration: 1s;
-animation-timing-function: linear;
-animation-iteration-count: infinite;
+animation-duration: 5s;
+animation-timing-function:initial;
+animation-iteration-count: 1;
 animation-play-state: running;
+animation-fill-mode: forwards;
 }
 
 @keyframes fadein {
@@ -28,10 +29,6 @@ animation-play-state: running;
     to {opacity: 1; transform: rotate(3deg);}
 }
 
-@-webkit-keyframes fadein{
-    from {opacity: 0; transform: rotate(0deg);}
-    to {opacity: 1; transform: rotate(3deg);}
-}
 .container {
     position: relative;
 
