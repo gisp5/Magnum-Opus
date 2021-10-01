@@ -8,9 +8,8 @@ audio {
 }
 
 
-#Header{
-display: flex;
-justify-content: center;
+#Header{position: relative;
+    right: 50%;
 text-shadow: 2px rgb(0, 0, 0);
 font-family: papyrus;
 color: rgb(45, 95, 187);
