@@ -1,3 +1,47 @@
 body {
     background-image: url(images/Hovedside.jpg);
 }
+
+.Character{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+#Person1{
+    position: relative;
+    top:0px;
+    left:0px;
+}
+
+#Person2{
+    position: relative;
+    top:0px;
+    left:0px;
+}
+
+#Person3{
+    position: relative;
+    top:0px;
+    left:0px;
+}
+
+#Person4{
+position: relative;
+top:0px;
+left:0px;
+}
+
+#Person5{
+position: relative;
+top:0px;
+left:0px;
+}
+
+#Person6{
+position: relative;
+top:0px;
+left:0px;
+}
