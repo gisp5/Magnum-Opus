@@ -30,7 +30,7 @@ animation-fill-mode: forwards;
 }
 
 .Container {
-    position: relative;
+    position: absolute;
 
 }
 #Paragraf{
@@ -58,8 +58,7 @@ animation-fill-mode: forwards;
 }
 
 #Puzzle1{
-    top: 125px;
-    left: 230px;
+left: 10vw;
 
 }
 
@@ -86,7 +85,7 @@ animation-fill-mode: forwards;
 }
 
 .Puzzles div{
-    position: absolute;
+    position: relative;
     border: 2px solid black;
     width: 50px;
     text-align: center;
