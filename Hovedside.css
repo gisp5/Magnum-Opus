@@ -2,6 +2,11 @@ body {
     background-image: url(images/Hovedside.jpg);
 }
 
+img {
+    width: 100px;
+    height: 100px;
+}
+
 .Character{
     color: white;
     display: flex;
@@ -12,36 +17,37 @@ body {
 
 #Person1{
     position: relative;
-    top:0px;
-    left:0px;
+    top: -325px;
+    left: -425px;
 }
 
 #Person2{
     position: relative;
-    top:0px;
-    left:0px;
+    top: -80px;
+    left: -37   0px;
 }
 
 #Person3{
     position: relative;
-    top:0px;
-    left:0px;
+    top: -350px;
+    left: -180px;
 }
 
 #Person4{
 position: relative;
-top:0px;
-left:0px;
+top: -350px;
+left: 30px;
 }
 
 #Person5{
 position: relative;
-top:0px;
-left:0px;
+top: 175px;
+left: -400px;
 }
 
 #Person6{
 position: relative;
-top:0px;
-left:0px;
+top: -300px;
+left: 475px;
 }
+
