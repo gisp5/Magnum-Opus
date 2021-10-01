@@ -11,9 +11,9 @@ audio {
 #header{
 display: flex;
 justify-content: center;
-text-shadow: 2px blue;
+text-shadow: 2px rgb(0, 0, 0);
 font-family: papyrus;
-color: blue;
+color: rgb(45, 95, 187);
 font-size: 100px;
 
 -webkit-animation: fadein 10s;
