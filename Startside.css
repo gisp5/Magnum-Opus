@@ -89,3 +89,10 @@ animation-fill-mode: forwards;
     top: 15px;
     left: -600px;
 }
+
+.Puzzles div{
+    border: 2px solid black;
+    width: 50px;
+    text-align: center;
+    
+}
