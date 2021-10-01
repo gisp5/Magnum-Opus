@@ -8,35 +8,32 @@ audio {
 }
 
 
-#header{
+#Header{
 display: flex;
 justify-content: center;
 text-shadow: 2px rgb(0, 0, 0);
 font-family: papyrus;
 color: rgb(45, 95, 187);
 font-size: 100px;
-animation: fadein 10s;
-animation-name: fadein;
-animation-duration: 1s;
-animation-timing-function: linear;
-animation-iteration-count: infinite;
+animation: Fadein 10s;
+animation-name: Fadein;
+animation-duration: 5s;
+animation-timing-function:initial;
+animation-iteration-count: 1;
 animation-play-state: running;
+animation-fill-mode: forwards;
 }
 
-@keyframes fadein {
+@keyframes Fadein {
     from {opacity: 0; transform: rotate(0deg);}
     to {opacity: 1; transform: rotate(3deg);}
 }
 
-@-webkit-keyframes fadein{
-    from {opacity: 0; transform: rotate(0deg);}
-    to {opacity: 1; transform: rotate(3deg);}
-}
-.container {
+.Container {
     position: relative;
 
 }
-#paragraf{
+#Paragraf{
 
     transition: transform .2s;
     position: absolute;
@@ -47,7 +44,7 @@ animation-play-state: running;
     height: 10px;
 
 }
-#paragraf:hover{
+#Paragraf:hover{
     transform: scale(90);
 
 }
