@@ -15,8 +15,7 @@ text-shadow: 2px rgb(0, 0, 0);
 font-family: papyrus;
 color: rgb(45, 95, 187);
 font-size: 100px;
-
--webkit-animation: fadein 10s;
+animation: fadein 10s;
 animation-name: fadein;
 animation-duration: 1s;
 animation-timing-function: linear;
