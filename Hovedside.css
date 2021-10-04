@@ -10,44 +10,201 @@ img {
 .Character{
     color: white;
     display: flex;
-    position: absolute;
+    position: relative;
     top: 500px;
     left: 500px;
+    
 }
 
 #Person1{
-    position: relative;
+    position: absolute;
     top: -325px;
     left: -425px;
+    border-radius: 50px;
+    max-width: 350px;
+    min-height: fit-content;
+    background-color: cadetblue;
+    padding-bottom: 5px;
+    font-family: cursive;
+}
+
+#Person1>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px 50px 0 0;
+}
+
+#Person1>h1{ 
+    margin-left: 20px;
+    
+}
+
+#Person1>p{
+    max-width: 200px;
+    margin-left: 20px;
+    
 }
 
 #Person2{
-    position: relative;
+    position: absolute;
     top: -80px;
-    left: -37   0px;
+    left: -37 0px;
+    border-radius: 50px;
+    max-width: 350px;
+    min-height: fit-content;
+    background-color: cadetblue;
+    padding-bottom: 5px;
+    font-family: cursive;
+}
+#Person2>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px 50px 0 0;
+}
+
+#Person2>h1{ 
+    margin-left: 20px;
+    
+}
+
+#Person2>p{
+    max-width: 200px;
+    margin-left: 20px;
+    
 }
 
 #Person3{
-    position: relative;
+    position: absolute;
     top: -350px;
     left: -180px;
+    border-radius: 50px;
+    max-width: 350px;
+    min-height: fit-content;
+    background-color: cadetblue;
+    padding-bottom: 5px;
+    font-family: cursive;
+    
 }
 
+#Person3>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px 50px 0 0;
+}
+
+#Person3>h1{ 
+    margin-left: 20px;
+    
+}
+
+#Person3>p{
+    max-width: 200px;
+    margin-left: 20px;
+    
+}
+
+
 #Person4{
-position: relative;
+position: absolute;
 top: -350px;
 left: 30px;
+border-radius: 50px;
+max-width: 350px;
+min-height: fit-content;
+background-color: cadetblue;
+padding-bottom: 5px;
+font-family: cursive;
+}
+
+#Person4>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px 50px 0 0;
+}
+
+#Person4>h1{ 
+    margin-left: 20px;
+    
+}
+
+#Person4>p{
+    max-width: 200px;
+    margin-left: 20px;
+    
 }
 
 #Person5{
-position: relative;
-top: 175px;
+position: absolute;
+top: 300px;
 left: -400px;
+border-radius: 50px;
+max-width: 350px;
+min-height: fit-content;
+background-color: cadetblue;
+padding-bottom: 5px;
+font-family: cursive;
+}
+
+#Person5>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px 50px 0 0;
+}
+
+#Person5>h1{ 
+    margin-left: 20px;
+    
+}
+
+#Person5>p{
+    max-width: 200px;
+    margin-left: 20px;
+    
 }
 
 #Person6{
-position: relative;
+position: absolute;
 top: -300px;
 left: 475px;
+border-radius: 50px;
+max-width: 350px;
+min-height: fit-content;
+background-color: cadetblue;
+padding-bottom: 5px;
+font-family: cursive;
+}
+
+#Person6>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px 50px 0 0;
+}
+
+#Person6>h1{ 
+    margin-left: 20px;
+    
+}
+
+#Person6>p{
+    max-width: 200px;
+    margin-left: 20px;
+    
+}
+
+#Person2>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px 50px 0 0;
+}
+
+#Person2>h1{ 
+    margin-left: 20px;
+    
+}
+
+#Person2>p{
+    max-width: 200px;
+    margin-left: 20px;
+    
 }
 
