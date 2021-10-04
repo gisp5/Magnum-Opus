@@ -76,13 +76,13 @@ audio {
     right: 35px;
     color: blue;
     text-align: center;
-
 }
+
+
 .Puzzles>div{
     position: absolute;
     height: 70px;
     width: 70px;
-    border: 2px solid black;
 }
 #Start_Puzzle{
     top: 100px;
@@ -92,27 +92,70 @@ audio {
 #Puzzle1{
     left: 200px;
     top: 325px;
+    opacity: 0;
+}
+#Puzzle1:hover{
+    animation-name: Puzzle;
+    animation-duration: 0.5s;
+    animation-timing-function: initial;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
 }
 
 #Puzzle2{
     top: 30px;
     left: 750px;
-
+    opacity: 0;
 }
-
+#Puzzle2:hover{
+    animation-name: Puzzle;
+    animation-duration: 0.5s;
+    animation-timing-function: initial;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
 #Puzzle3{
     top: -125px;
     right: 825px;
-
+    opacity: 0;
 }
+#Puzzle3:hover{
+    animation-name: Puzzle;
+    animation-duration: 0.5s;
 
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
 #Puzzle4{
     top: 285px;
     left: 75px;
+    opacity: 0;
 }
-
+#Puzzle4:hover{
+    animation-name: Puzzle;
+    animation-duration: 0.5s;
+    animation-timing-function: initial;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
 #Puzzle5{
     top: 550px;
     left: 225px;
+    opacity: 0;
 }
+#Puzzle5:hover{
+    animation-name: Puzzle;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+@keyframes Puzzle{
+    from {opacity: 0%;}
+    to {opacity: 100%;}
 
+}
