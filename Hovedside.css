@@ -36,12 +36,13 @@ body {
     height: fit-content;
     background-color: cadetblue;
     font-family: papyrus;
-    display: none;
+    opacity: 0;
 }
 
 #Person1:hover{ 
     transform: translate(350px, 0);
-    display:block;
+    opacity: 1;
+
 }
 
 #Person1>img{
