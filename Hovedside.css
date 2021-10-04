@@ -19,15 +19,19 @@ body {
     position: absolute;
 }
 
-#Div1:hover + #Person1{
-    border: 5px solid black;
-    color: white;
-    top: 200px;
-    left: 70px;
-    transform: translate(350px, 0);
+#Div1 {
+    position: relative;
+    top: 130px;
+    right: 35px;
+    color: blue;
+    text-align: center;
+}
+#Div1>div{
+    position: absolute;
 }
 
 #Person1{
+    position: relative;
     border: 2px solid black; 
     top: 500px;
     left: 500px;
@@ -36,13 +40,12 @@ body {
     height: fit-content;
     background-color: cadetblue;
     font-family: papyrus;
-    opacity: 0;
+    opacity: 1;
 }
 
 #Person1:hover{ 
     transform: translate(350px, 0);
     opacity: 1;
-
 }
 
 #Person1>img{
@@ -64,7 +67,7 @@ body {
 }
 #Person2{
     top: 500px;
-    left: 1250px;
+    left: 150px;
     border-radius: 50px;
     max-width: 200px;
     min-height: fit-content;
@@ -148,15 +151,16 @@ font-family: cursive;
 }
 
 #Person5{
-top: 350px;
-left: 150px;
-border-radius: 50px;
-max-width: 200px;
-min-height: fit-content;
-background-color: cadetblue;
-padding-bottom: 5px;
-font-family: cursive;
-}
+    top: 605px;
+    left: -900px;
+    border-radius: 50px;
+    max-width: 200px;
+    min-height: fit-content;
+    background-color: cadetblue;
+    padding-bottom: 5px;
+    font-family: cursive;
+    }
+    
 
 #Person5>img{
     width: 200px;
@@ -176,15 +180,16 @@ font-family: cursive;
 }
 
 #Person6{
-top: 0px;
-left: 1050px;
-border-radius: 50px;
-max-width: 200px;
-min-height: fit-content;
-background-color: cadetblue;
-padding-bottom: 5px;
-font-family: cursive;
-}
+    top: 525px;
+    left: 750px;
+    border-radius: 50px;
+    max-width: 200px;
+    min-height: fit-content;
+    background-color: cadetblue;
+    padding-bottom: 5px;
+    font-family: cursive;
+    }
+    
 
 #Person6>img{
     width: 200px;
@@ -207,4 +212,4 @@ font-family: cursive;
     0% {left: 0;}
     50% {left: 100%;}
     100% {left: 0;}
-  }
+}
