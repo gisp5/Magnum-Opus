@@ -45,10 +45,6 @@ audio {
     animation-fill-mode: forwards;
 }
 
-@keyframes Fadein {
-    from {opacity: 0; transform: rotate(0deg);}
-    to {opacity: 1; transform: rotate(3deg);}
-}
 
 #link{
     position: relative;
@@ -81,8 +77,8 @@ audio {
 
 .Puzzles>div{
     position: absolute;
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
 }
 #Start_Puzzle{
     top: 100px;
@@ -95,6 +91,8 @@ audio {
     opacity: 0;
 }
 #Puzzle1:hover{
+    background-color:burlywood;
+    border-radius: 10px 10px 10px 10px;
     animation-name: Puzzle;
     animation-duration: 0.5s;
     animation-timing-function: initial;
@@ -109,6 +107,8 @@ audio {
     opacity: 0;
 }
 #Puzzle2:hover{
+    background-color:burlywood;
+    border-radius: 10px 10px 10px 10px;
     animation-name: Puzzle;
     animation-duration: 0.5s;
     animation-timing-function: initial;
@@ -122,9 +122,11 @@ audio {
     opacity: 0;
 }
 #Puzzle3:hover{
+    background-color:burlywood;
+    border-radius: 10px 10px 10px 10px;
     animation-name: Puzzle;
     animation-duration: 0.5s;
-
+    animation-timing-function: initial;
     animation-iteration-count: 1;
     animation-play-state: running;
     animation-fill-mode: forwards;
@@ -135,6 +137,8 @@ audio {
     opacity: 0;
 }
 #Puzzle4:hover{
+    background-color:burlywood;
+    border-radius: 10px 10px 10px 10px;
     animation-name: Puzzle;
     animation-duration: 0.5s;
     animation-timing-function: initial;
@@ -148,14 +152,21 @@ audio {
     opacity: 0;
 }
 #Puzzle5:hover{
+    background-color:burlywood;
+    border-radius: 10px 10px 10px 10px;
     animation-name: Puzzle;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
     animation-play-state: running;
     animation-fill-mode: forwards;
 }
-@keyframes Puzzle{
-    from {opacity: 0%;}
-    to {opacity: 100%;}
 
+@keyframes Fadein {
+    from {opacity: 0; transform: rotate(0deg);}
+    to {opacity: 1; transform: rotate(3deg);}
+}
+
+@keyframes Puzzle{
+    from {opacity: 0%; transform: rotate(0deg);}
+    to {opacity: 100%;transform: rotate(360deg);}
 }
