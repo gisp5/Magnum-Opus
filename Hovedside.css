@@ -27,7 +27,7 @@ body {
     text-align: center;
 }
 #Div1>div{
-    position: relative;
+    position: absolute;
 }
 
 #Person1{
@@ -214,7 +214,6 @@ font-family: cursive;
 }
 
 #Person6{
-    position: absolute;
     top: 525px;
     left: 750px;
     border-radius: 50px;
