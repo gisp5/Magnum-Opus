@@ -4,8 +4,7 @@ body {
     justify-content: center;
     background-color: black
 }
-
-.Main_Container{
+.Main_Container { 
     display:flex;
     flex-direction: row;
     width: 1920px;
@@ -21,19 +20,29 @@ body {
 }
 
 #Person1{
-    top: 125px;
-    left: 25px;
+    top: 0px;
+    left: 0px;
     border-radius: 50px;
     max-width: 200px;
     min-height: fit-content;
     background-color: cadetblue;
     padding-bottom: 5px;
     font-family: cursive;
+    position:absolute;
+    animation:steps(3);
+    animation-name: run;
+    animation-duration: 2s;
+}
+
+@keyframes run{
+    0% { left: 0;}
+    50% { left: 10%;}
+    100% { left: 0;}
 }
 
 #Person1>img{
-    width: fit-content;
-    height: fit-content;
+    width: 200px;
+    height: 200px;
     border-radius: 50px 50px 0 0;
 }
 
@@ -59,8 +68,8 @@ body {
     font-family: cursive;
 }
 #Person2>img{
-    width: fit-content;
-    height: fit-content;
+    width: 200px;
+    height: 200px;
     border-radius: 50px 50px 0 0;
 }
 
