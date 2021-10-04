@@ -33,25 +33,35 @@ body {
 #Person1{
     position: relative;
     border: 2px solid black; 
-    top: 500px;
-    left: 500px;
+    top: 0px;
+    right: 430px;
     border-radius: 50px;
     width: 250px;
     height: fit-content;
     background-color: cadetblue;
     font-family: papyrus;
+    transition: 2s;
+    opacity: 0;
+}
+#hover1{
+    border: 5px solid black;
     opacity: 1;
+    color: white;
+    top: 70px;
+    right: 730px;
 }
 
-#Person1:hover{ 
-    transform: translate(350px, 0);
+#hover1:hover + #Person1 { 
+    transition: 0.7s;
     opacity: 1;
+        
 }
 
 #Person1>img{
     width: 50%;
     height: fit-content;
     border-radius: 50px 0px 0 0;
+    margin-right: 200px;
 }
 
 #Person1>h1{ 
@@ -75,10 +85,18 @@ body {
     padding-bottom: 5px;
     font-family: cursive;
 }
-#Person2>img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50px 50px 0 0;
+
+#hover2{
+    border: 5px solid black;
+    opacity: 1;
+    color: white;
+    top: 70px;
+    right: 730px;
+}
+
+#hover2:hover + #Person1 { 
+    transition: 0.7s;
+    opacity: 1;
 }
 
 #Person2>h1{ 
@@ -208,8 +226,3 @@ font-family: cursive;
     
 }
 
-@keyframes run {
-    0% {left: 0;}
-    50% {left: 100%;}
-    100% {left: 0;}
-}
