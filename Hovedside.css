@@ -20,34 +20,29 @@ body {
 }
 
 #Person1{
-    top: 0px;
-    left: 0px;
+    border: 2px solid black; 
+    transition: transform .2s ;
+    transform: scale(0.9);
+    top: 70px;
+    left: 60px;
     border-radius: 50px;
-    max-width: 200px;
-    min-height: fit-content;
+    width: 250px;
+    height: fit-content;
     background-color: cadetblue;
     padding-bottom: 5px;
-    font-family: cursive;
-    position:absolute;
-    animation:steps(3);
-    animation-name: run;
-    animation-duration: 2s;
-}
+    font-family: papyrus;
 
-@keyframes run{
-    0% { left: 0;}
-    50% { left: 10%;}
-    100% { left: 0;}
 }
 
 #Person1>img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50px 50px 0 0;
+    width: 50%;
+    height: fit-content;
+    border-radius: 50px 0px 0 0;
 }
 
 #Person1>h1{ 
     margin-left: 20px;
+
     
 }
 
@@ -56,7 +51,10 @@ body {
     margin-left: 20px;
     
 }
-
+#person1:hover{
+    transition: transform .2s ;
+    transform: scale(2);
+}
 #Person2{
     top: -80px;
     left: -37 0px;
