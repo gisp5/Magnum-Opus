@@ -4,8 +4,7 @@ body {
     justify-content: center;
     background-color: black
 }
-
-.Main_Container{
+.Main_Container { 
     display:flex;
     flex-direction: row;
     width: 1920px;
@@ -20,19 +19,29 @@ body {
     position: absolute;
 }
 
+#Div1:hover + #Person1{
+    border: 5px solid black;
+    color: white;
+    top: 200px;
+    left: 70px;
+    transform: translate(350px, 0);
+}
+
 #Person1{
     border: 2px solid black; 
-    transition: transform .2s ;
-    transform: scale(0.9);
-    top: 70px;
-    left: 60px;
+    top: 500px;
+    left: 500px;
     border-radius: 50px;
     width: 250px;
     height: fit-content;
     background-color: cadetblue;
-    padding-bottom: 5px;
     font-family: papyrus;
+    display: none;
+}
 
+#Person1:hover{ 
+    transform: translate(350px, 0);
+    display:block;
 }
 
 #Person1>img{
@@ -52,13 +61,9 @@ body {
     margin-left: 20px;
     
 }
-#person1:hover{
-    transition: transform .2s ;
-    transform: scale(2);
-}
 #Person2{
-    top: -80px;
-    left: -37 0px;
+    top: 500px;
+    left: 1250px;
     border-radius: 50px;
     max-width: 200px;
     min-height: fit-content;
@@ -67,8 +72,8 @@ body {
     font-family: cursive;
 }
 #Person2>img{
-    width: fit-content;
-    height: fit-content;
+    width: 200px;
+    height: 200px;
     border-radius: 50px 50px 0 0;
 }
 
@@ -84,8 +89,8 @@ body {
 }
 
 #Person3{
-    top: -350px;
-    left: -180px;
+    top: -125px;
+    left: 350px;
     border-radius: 50px;
     max-width: 200px;
     min-height: fit-content;
@@ -114,8 +119,8 @@ body {
 
 
 #Person4{
-top: -350px;
-left: 30px;
+top: -125px;
+left: 550px;
 border-radius: 50px;
 max-width: 200px;
 min-height: fit-content;
@@ -142,9 +147,8 @@ font-family: cursive;
 }
 
 #Person5{
-position: absolute;
-top: 300px;
-left: -400px;
+top: 350px;
+left: 150px;
 border-radius: 50px;
 max-width: 200px;
 min-height: fit-content;
@@ -171,9 +175,8 @@ font-family: cursive;
 }
 
 #Person6{
-position: absolute;
-top: -300px;
-left: 475px;
+top: 0px;
+left: 1050px;
 border-radius: 50px;
 max-width: 200px;
 min-height: fit-content;
@@ -199,20 +202,8 @@ font-family: cursive;
     
 }
 
-#Person2>img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50px 50px 0 0;
-}
-
-#Person2>h1{ 
-    margin-left: 20px;
-    
-}
-
-#Person2>p{
-    max-width: 200px;
-    margin-left: 20px;
-    
-}
-
+@keyframes run {
+    0% {left: 0;}
+    50% {left: 100%;}
+    100% {left: 0;}
+  }

@@ -25,13 +25,12 @@ audio {
     display: none;
 }
 
-.Content {
-    padding-top: 10px;
-    left: 43%;
-    top: 0px;
-}
+
 
 #Header {
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    top: 100px;
     display: flex;
     text-shadow: 2px rgb(0, 0, 0);
     font-family: papyrus;
@@ -52,7 +51,9 @@ audio {
 }
 
 #link{
-    position: absolute;
+    position: relative;
+    top: 800px;
+    left: 125px;
 }
 #Paragraf{
     position: absolute;
@@ -70,16 +71,18 @@ audio {
 }
 
 .Puzzles{
-
+    position: relative;
+    top: 130px;
+    right: 35px;
     color: blue;
     text-align: center;
-
 }
+
+
 .Puzzles>div{
     position: absolute;
     height: 70px;
     width: 70px;
-    border: 2px solid black;
 }
 #Start_Puzzle{
     top: 100px;
@@ -87,29 +90,72 @@ audio {
 
 }
 #Puzzle1{
-    left: 175px;
-    top: 470px;
+    left: 200px;
+    top: 325px;
+    opacity: 0;
+}
+#Puzzle1:hover{
+    animation-name: Puzzle;
+    animation-duration: 0.5s;
+    animation-timing-function: initial;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
 }
 
 #Puzzle2{
-    top: 380px;
-    left: -510px;
-
+    top: 30px;
+    left: 750px;
+    opacity: 0;
 }
-
+#Puzzle2:hover{
+    animation-name: Puzzle;
+    animation-duration: 0.5s;
+    animation-timing-function: initial;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
 #Puzzle3{
-    top: 150px;
-    left: 720px;
-
+    top: -125px;
+    right: 825px;
+    opacity: 0;
 }
+#Puzzle3:hover{
+    animation-name: Puzzle;
+    animation-duration: 0.5s;
 
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
 #Puzzle4{
-    top: 470px;
-    left: 560px;
+    top: 285px;
+    left: 75px;
+    opacity: 0;
 }
-
+#Puzzle4:hover{
+    animation-name: Puzzle;
+    animation-duration: 0.5s;
+    animation-timing-function: initial;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
 #Puzzle5{
-    top: 15px;
-    left: -600px;
+    top: 550px;
+    left: 225px;
+    opacity: 0;
 }
+#Puzzle5:hover{
+    animation-name: Puzzle;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+@keyframes Puzzle{
+    from {opacity: 0%;}
+    to {opacity: 100%;}
 
+}
