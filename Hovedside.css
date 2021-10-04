@@ -19,7 +19,7 @@ body {
     position: absolute;
 }
 
-#Person1{
+#Person1:hover{
     border: 2px solid black; 
     transition: transform .2s ;
     transform: scale(0.9);
@@ -29,7 +29,6 @@ body {
     width: 250px;
     height: fit-content;
     background-color: cadetblue;
-    padding-bottom: 5px;
     font-family: papyrus;
 
 }

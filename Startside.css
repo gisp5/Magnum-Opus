@@ -25,13 +25,12 @@ audio {
     display: none;
 }
 
-.Content {
-    padding-top: 10px;
-    left: 43%;
-    top: 0px;
-}
+
 
 #Header {
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    top: 100px;
     display: flex;
     text-shadow: 2px rgb(0, 0, 0);
     font-family: papyrus;
@@ -52,7 +51,9 @@ audio {
 }
 
 #link{
-    position: absolute;
+    position: relative;
+    top: 800px;
+    left: 125px;
 }
 #Paragraf{
     position: absolute;
@@ -70,7 +71,9 @@ audio {
 }
 
 .Puzzles{
-
+    position: relative;
+    top: 130px;
+    right: 35px;
     color: blue;
     text-align: center;
 
@@ -87,29 +90,29 @@ audio {
 
 }
 #Puzzle1{
-    left: 175px;
-    top: 470px;
+    left: 200px;
+    top: 325px;
 }
 
 #Puzzle2{
-    top: 380px;
-    left: -510px;
+    top: 30px;
+    left: 750px;
 
 }
 
 #Puzzle3{
-    top: 150px;
-    left: 720px;
+    top: -125px;
+    right: 825px;
 
 }
 
 #Puzzle4{
-    top: 470px;
-    left: 560px;
+    top: 285px;
+    left: 75px;
 }
 
 #Puzzle5{
-    top: 15px;
-    left: -600px;
+    top: 550px;
+    left: 225px;
 }
 
