@@ -9,8 +9,8 @@ body {
 .Main_Container {
     display:flex;
     flex-direction: row;
-    width: 1024px;
-    height: 768px;
+    width: 1920px;
+    height: 1080px;
     position: relative;
     justify-content: center;
     background-image: url(images/Startside.jpg);
@@ -27,12 +27,11 @@ audio {
 
 .Content {
     padding-top: 10px;
-    left: 50%;
+    left: 43%;
     top: 0px;
 }
 
 #Header {
-    background-color: black;
     display: flex;
     text-shadow: 2px rgb(0, 0, 0);
     font-family: papyrus;
@@ -78,23 +77,24 @@ audio {
 }
 .Puzzles>div{
     position: absolute;
-    height: 30px;
-    width: 30px;
+    height: 70px;
+    width: 70px;
     border: 2px solid black;
 }
 #Puzzle1{
-    left: 1000px;
+    left: 275px;
+    top: 470px;
 }
 
 #Puzzle2{
-    top: -170px;
-    left: 675px;
+    top: 380px;
+    left: -430px;
 
 }
 
 #Puzzle3{
-    top: -325px;
-    left: -675px;
+    top: 150px;
+    left: 800px;
 
 }
 
