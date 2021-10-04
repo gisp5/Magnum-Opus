@@ -23,8 +23,6 @@ body {
     position: relative;
     top: 130px;
     right: 35px;
-
-    text-align: center;
 }
 #Div1>div{
     position: absolute;
@@ -33,8 +31,8 @@ body {
 #Person1{
     position: relative;
     border: 2px solid black; 
-    top: 0px;
-    left: -200px;
+    top: 50px;
+    left: -700px;
     border-radius: 50px;
     width: 250px;
     height: fit-content;
@@ -43,12 +41,12 @@ body {
     transition: 2s;
     opacity: 0;
 }
+
 #Hover1{
-    border: 5px solid black;
-    opacity: 1;
-    color: white;
+    background-color: white;
+    opacity: 0.2;
     top: 50px;
-    right: 205px;
+    left: -765px;
     width: 50px;
     height: 50px;
 }
@@ -59,9 +57,9 @@ body {
 }
 
 #Person1>img{
-    width: 50%;
+    width: 60%;
     height: fit-content;
-    border-radius: 50px 0px 0 0;
+    border-radius: 50px 0px 50px 0;
     margin-right: 200px;
 }
 
@@ -80,7 +78,7 @@ body {
     position: relative;
     border: 2px solid black; 
     top: 550px;
-    left: 350px;
+    left: 325px;
     border-radius: 50px;
     width: 250px;
     height: fit-content;
@@ -91,12 +89,11 @@ body {
 }
 
 #Hover2{
-    border: 5px solid black;
-    opacity: 1;
-    color: white;
+    background-color: white;
+    opacity: 0.2;
     top: 850px;
-    left: 450px;
-    width: 100px;
+    left: 350px;
+    width: 200px;
     height: 100px;
 }
 
@@ -108,7 +105,7 @@ body {
 #Person2>img {
     width: 50%;
     height: fit-content;
-    border-radius: 50px 0px 0 0;
+    border-radius: 50px 0px 50px 0;
     margin-right: 200px;
 
 }
@@ -128,7 +125,7 @@ body {
     position: relative;
     border: 2px solid black; 
     top: 100px;
-    right: 300px;
+    right: 325px;
     border-radius: 50px;
     width: 250px;
     height: fit-content;
@@ -141,8 +138,8 @@ body {
     border: 5px solid black;
     opacity: 1;
     color: white;
-    top: 140px;
-    left: 410px;
+    top: 10px;
+    left: -500px;
     width: 50px;
     height: 50px;
 
@@ -155,9 +152,10 @@ body {
 }
 
 #Person3>img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50px 50px 0 0;
+    width: 50%;
+    height: fit-content;
+    border-radius: 50px 0px 50px 0;
+    margin-right: 200px;
 }
 
 #Person3>h1{ 
@@ -175,8 +173,8 @@ body {
 #Person4{
     position: relative;
     border: 2px solid black; 
-    top: 100px;
-    right: 0px;
+    top: 0px;
+    left: -210px;
     border-radius: 50px;
     width: 250px;
     height: fit-content;
@@ -189,8 +187,8 @@ body {
     border: 5px solid black;
     opacity: 1;
     color: white;
-    top: 160px;
-    left: 625px;
+    top: 25px;
+    left: -290px;
     width: 50px;
     height: 50px;
 }
