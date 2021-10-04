@@ -76,27 +76,40 @@ body {
     
 }
 #Person2{
-    top: 500px;
-    left: 150px;
+    position: relative;
+    border: 2px solid black; 
+    top: 550px;
+    left: 350px;
     border-radius: 50px;
-    max-width: 200px;
-    min-height: fit-content;
+    width: 250px;
+    height: fit-content;
     background-color: cadetblue;
-    padding-bottom: 5px;
-    font-family: cursive;
+    font-family: papyrus;
+    transition: 2s;
+    opacity: 0;
 }
 
 #hover2{
     border: 5px solid black;
     opacity: 1;
     color: white;
-    top: 70px;
-    right: 730px;
+    top: 850px;
+    left: 450px;
+    width: 100px;
+    height: 100px;
 }
 
-#hover2:hover + #Person1 { 
+#hover2:hover + #Person2 { 
     transition: 0.7s;
     opacity: 1;
+}
+
+#Person2>img {
+    width: 50%;
+    height: fit-content;
+    border-radius: 50px 0px 0 0;
+    margin-right: 200px;
+
 }
 
 #Person2>h1{ 
