@@ -103,7 +103,7 @@ body {
 }
 
 #Person2>img {
-    width: 50%;
+    width: 60%;
     height: fit-content;
     border-radius: 50px 0px 50px 0;
     margin-right: 200px;
@@ -135,9 +135,8 @@ body {
     opacity: 0;
 }
 #Hover3{
-    border: 5px solid black;
-    opacity: 1;
-    color: white;
+    opacity: 0.2;
+    background-color: white;
     top: 10px;
     left: -500px;
     width: 50px;
@@ -152,7 +151,7 @@ body {
 }
 
 #Person3>img{
-    width: 50%;
+    width: 60%;
     height: fit-content;
     border-radius: 50px 0px 50px 0;
     margin-right: 200px;
@@ -184,9 +183,8 @@ body {
     opacity: 0;
 }
 #Hover4{
-    border: 5px solid black;
-    opacity: 1;
-    color: white;
+    opacity: 0.2;
+    background-color: white;
     top: 25px;
     left: -290px;
     width: 50px;
@@ -200,9 +198,10 @@ body {
 }
 
 #Person4>img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50px 50px 0 0;
+    width: 60%;
+    height: fit-content;
+    border-radius: 50px 0px 50px 0;
+    margin-right: 200px;
 }
 
 #Person4>h1{ 
@@ -220,7 +219,7 @@ body {
     position: relative;
     border: 2px solid black; 
     top: 300px;
-    right: 600px;
+    right: 350px;
     border-radius: 50px;
     width: 250px;
     height: fit-content;
@@ -230,11 +229,10 @@ body {
     opacity: 0;
 }
 #Hover5{
-    border: 5px solid black;
-    opacity: 1;
-    color: white;
-    top: 680px;
-    right: 1625px;
+    opacity: 0.2;
+    background-color: white;
+    top: 550px;
+    right: 632px;
     width: 50px;
     height: 50px;
 }
@@ -247,9 +245,10 @@ body {
     
 
 #Person5>img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50px 50px 0 0;
+    width: 60%;
+    height: fit-content;
+    border-radius: 50px 0px 50px 0;
+    margin-right: 200px;
 }
 
 #Person5>h1{ 
@@ -267,7 +266,7 @@ body {
     position: relative;
     border: 2px solid black; 
     top: 100px;
-    right: 430px;
+    right: -100px;
     border-radius: 50px;
     width: 250px;
     height: fit-content;
@@ -277,11 +276,10 @@ body {
     opacity: 0;
 }
 #Hover6{
-    border: 5px solid black;
-    opacity: 1;
-    color: white;
-    top: 200px;
-    right: 650px;
+    opacity: 0.2;
+    background-color: white;
+    top: 80px;
+    right: -330px;
     width: 175px;
     height: 175px;
 }
@@ -294,9 +292,10 @@ body {
     
 
 #Person6>img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50px 50px 0 0;
+    width: 60%;
+    height: fit-content;
+    border-radius: 50px 0px 50px 0;
+    margin-right: 200px;
 }
 
 #Person6>h1{ 
