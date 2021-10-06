@@ -132,6 +132,13 @@ audio {
     animation-fill-mode: forwards;
 }
 #Puzzle4{
+    background: linear-gradient(to right, #EC8AA5, #A60303, #D99036, #0A7FAC);
+    color: transparent;
+    animation-name: Box;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-size: 400% 100%;
     top: 285px;
     left: 75px;
     opacity: 0;
@@ -161,12 +168,11 @@ audio {
     animation-fill-mode: forwards;
 }
 
-@keyframes Fadein {
-    from {opacity: 0; transform: rotate(0deg);}
-    to {opacity: 1; transform: rotate(3deg);}
-}
-
 @keyframes Puzzle{
     from {opacity: 0%; transform: rotate(0deg);}
     to {opacity: 100%;transform: rotate(360deg);}
+}
+@keyframes Box{
+    from{opacity: 0.5;}
+    to{opacity: 1;}
 }
