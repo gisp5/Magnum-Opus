@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
-.Main_Container>*{
+.Main_Container>* {
     position: absolute;
 }
 
@@ -24,11 +24,11 @@ body {
     top: 130px;
     right: 35px;
 }
-#Div1>div{
+#Div1>div {
     position: absolute;
 }
 
-#Person1{
+#Person1 {
     position: relative;
     border: 2px solid black; 
     top: 50px;
@@ -42,7 +42,7 @@ body {
     opacity: 0;
 }
 
-#Hover1{
+#Hover1 {
     background-color: white;
     opacity: 0.2;
     top: 50px;
@@ -56,25 +56,25 @@ body {
     opacity: 1;
 }
 
-#Person1>img{
+#Person1>img {
     width: 60%;
     height: fit-content;
     border-radius: 47px 0px 50px 0;
     margin-right: 200px;
 }
 
-#Person1>h1{ 
+#Person1>h1 { 
     margin-left: 20px;
 
     
 }
 
-#Person1>p{
+#Person1>p {
     max-width: 200px;
     margin-left: 20px;
     
 }
-#Person2{
+#Person2 {
     position: relative;
     border: 2px solid black; 
     top: 550px;
@@ -88,7 +88,7 @@ body {
     opacity: 0;
 }
 
-#Hover2{
+#Hover2 {
     background-color: white;
     opacity: 0.2;
     top: 850px;
@@ -110,18 +110,18 @@ body {
 
 }
 
-#Person2>h1{ 
+#Person2>h1 { 
     margin-left: 20px;
     
 }
 
-#Person2>p{
+#Person2>p {
     max-width: 200px;
     margin-left: 20px;
     
 }
 
-#Person3{
+#Person3 {
     position: relative;
     border: 2px solid black; 
     top: 100px;
@@ -134,7 +134,7 @@ body {
     transition: 2s;
     opacity: 0;
 }
-#Hover3{
+#Hover3 {
     opacity: 0.2;
     background-color: white;
     top: 10px;
@@ -150,14 +150,14 @@ body {
         
 }
 
-#Person3>img{
+#Person3>img {
     width: 60%;
     height: fit-content;
     border-radius: 47px 0px 50px 0;
     margin-right: 200px;
 }
 
-#Person3>h1{ 
+#Person3>h1 { 
     margin-left: 20px;
     
 }
@@ -169,7 +169,7 @@ body {
 }
 
 
-#Person4{
+#Person4 {
     position: relative;
     border: 2px solid black; 
     top: 0px;
@@ -182,7 +182,7 @@ body {
     transition: 2s;
     opacity: 0;
 }
-#Hover4{
+#Hover4 {
     opacity: 0.2;
     background-color: white;
     top: 25px;
@@ -197,25 +197,25 @@ body {
         
 }
 
-#Person4>img{
+#Person4>img {
     width: 60%;
     height: fit-content;
     border-radius: 47px 0px 50px 0;
     margin-right: 200px;
 }
 
-#Person4>h1{ 
+#Person4>h1 { 
     margin-left: 20px;
     
 }
 
-#Person4>p{
+#Person4>p {
     max-width: 200px;
     margin-left: 20px;
     
 }
 
-#Person5{
+#Person5 {
     position: relative;
     border: 2px solid black; 
     top: 300px;
@@ -228,7 +228,7 @@ body {
     transition: 2s;
     opacity: 0;
 }
-#Hover5{
+#Hover5 {
     opacity: 0.2;
     background-color: white;
     top: 550px;
@@ -244,25 +244,25 @@ body {
 }
     
 
-#Person5>img{
+#Person5>img {
     width: 60%;
     height: fit-content;
     border-radius: 47px 0px 50px 0;
     margin-right: 200px;
 }
 
-#Person5>h1{ 
+#Person5>h1 { 
     margin-left: 20px;
     
 }
 
-#Person5>p{
+#Person5>p {
     max-width: 200px;
     margin-left: 20px;
     
 }
 
-#Person6{
+#Person6 {
     position: relative;
     border: 2px solid black; 
     top: 100px;
@@ -275,7 +275,7 @@ body {
     transition: 2s;
     opacity: 0;
 }
-#Hover6{
+#Hover6 {
     opacity: 0.2;
     background-color: white;
     top: 80px;
@@ -291,21 +291,71 @@ body {
 }
     
 
-#Person6>img{
+#Person6>img {
     width: 60%;
     height: fit-content;
     border-radius: 47px 0px 50px 0;
     margin-right: 200px;
 }
 
-#Person6>h1{ 
+#Person6>h1 { 
     margin-left: 20px;
-    
 }
 
-#Person6>p{
+#Person6>p {
     max-width: 200px;
     margin-left: 20px;
-    
+}
+
+#Credits {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    left: 1550px;
+    border-radius: 50px;
+    font-family: papyrus;
+    font-size: 50px;
+    transition: 2s;
+    opacity: 0;
+}
+
+#Credits>p {
+background: linear-gradient(to right, red, cadetblue, yellow, purple);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+animation-name: Rainbow;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+background-size: 200% 100%;
+}
+
+#Creditsboks {
+    position: absolute;
+    background-color: white;
+    opacity: 0.2;
+    width: 50px;
+    height: 50px;
+    top: 40px;
+    left: 1775px;
+}
+
+#Creditsboks:hover + #Credits {
+    transition: 0.7s;
+    opacity: 1;
+}
+
+@keyframes Rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
