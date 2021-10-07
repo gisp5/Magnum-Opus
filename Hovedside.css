@@ -70,6 +70,7 @@ body {
 
 #Hover1 {
     background-color: white;
+    border-radius: 15px;
     opacity: 0.2;
     top: 50px;
     left: -765px;
@@ -138,6 +139,7 @@ body {
 
 #Hover2 {
     background-color: white;
+    border-radius: 15px 15px 0px 0px;
     opacity: 0.2;
     top: 850px;
     left: 350px;
@@ -208,6 +210,7 @@ body {
 #Hover3 {
     opacity: 0.2;
     background-color: white;
+    border-radius: 15px;
     top: 10px;
     left: -500px;
     width: 50px;
@@ -276,6 +279,7 @@ body {
 #Hover4 {
     opacity: 0.2;
     background-color: white;
+    border-radius: 15px;
     top: 25px;
     left: -290px;
     width: 50px;
@@ -345,6 +349,7 @@ body {
 #Hover5 {
     opacity: 0.2;
     background-color: white;
+    border-radius: 15px;
     top: 550px;
     right: 632px;
     width: 50px;
@@ -417,6 +422,7 @@ body {
 #Hover6 {
     opacity: 0.2;
     background-color: white;
+    border-radius: 15px;
     top: 80px;
     right: -330px;
     width: 175px;
@@ -476,6 +482,7 @@ position: absolute;
 #Creditsboks {
     position: absolute;
     background-color: white;
+    border-radius: 15px;
     opacity: 0.2;
     width: 50px;
     height: 50px;
