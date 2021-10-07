@@ -5,6 +5,7 @@ body {
     background-color: black;
     cursor: default;
 }
+
 .Main_Container { 
     display:flex;
     flex-direction: row;
@@ -25,6 +26,7 @@ body {
     top: 130px;
     right: 35px;
 }
+
 #Div1>div {
     position: absolute;
 }
@@ -98,6 +100,7 @@ body {
     max-width: 200px;
     margin-left: 20px;
 }
+
 #Person2 {
     position: relative;
     border: 2px solid black; 
@@ -276,6 +279,7 @@ body {
     border-radius: 50px;
     z-index: -1;
 }
+
 #Hover4 {
     opacity: 0.2;
     background-color: white;
@@ -356,12 +360,10 @@ body {
     height: 50px;
 }
 
-
 #Hover5:hover + #Person5 { 
     transition: 0.7s;
     opacity: 1;
 }
-    
 
 #Person5>img {
     width: 60%;
@@ -433,7 +435,6 @@ body {
     transition: 0.7s;
     opacity: 1;
 }
-    
 
 #Person6>img {
     width: 60%;
