@@ -2,7 +2,8 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    background-color: black
+    background-color: black;
+    cursor: default;
 }
 .Main_Container { 
     display:flex;
@@ -40,6 +41,31 @@ body {
     font-family: papyrus;
     transition: 2s;
     opacity: 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 10;
+}
+
+#Person1::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 200%;
+    top: -200px;
+    left: 50px;
+    background: linear-gradient(violet, turquoise, rgb(85, 85, 167), blue, rgb(128, 0, 0), yellow);
+    animation: animate 4s linear infinite forwards;
+    z-index: -1;
+}
+
+#Person1::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background:cadetblue;
+    border-radius: 50px;
+    z-index: -1;
 }
 
 #Hover1 {
@@ -83,6 +109,31 @@ body {
     font-family: papyrus;
     transition: 2s;
     opacity: 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 10;
+}
+
+#Person2::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 200%;
+    top: -200px;
+    left: 50px;
+    background: linear-gradient(violet, turquoise, rgb(85, 85, 167), blue, rgb(128, 0, 0), yellow);
+    animation: animate 4s linear infinite forwards;
+    z-index: -1;
+}
+
+#Person2::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background:cadetblue;
+    border-radius: 50px;
+    z-index: -1;
 }
 
 #Hover2 {
@@ -127,7 +178,33 @@ body {
     font-family: papyrus;
     transition: 2s;
     opacity: 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 10;
 }
+
+#Person3::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 200%;
+    top: -200px;
+    left: 50px;
+    background: linear-gradient(violet, turquoise, rgb(85, 85, 167), blue, rgb(128, 0, 0), yellow);
+    animation: animate 4s linear infinite forwards;
+    z-index: -1;
+}
+
+#Person3::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background:cadetblue;
+    border-radius: 50px;
+    z-index: -1;
+}
+
 #Hover3 {
     opacity: 0.2;
     background-color: white;
@@ -158,7 +235,6 @@ body {
     margin-left: 20px;
 }
 
-
 #Person4 {
     position: relative;
     border: 2px solid black; 
@@ -171,6 +247,31 @@ body {
     font-family: papyrus;
     transition: 2s;
     opacity: 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 10;
+}
+
+#Person4::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 200%;
+    top: -200px;
+    left: 50px;
+    background: linear-gradient(violet, turquoise, rgb(85, 85, 167), blue, rgb(128, 0, 0), yellow);
+    animation: animate 4s linear infinite forwards;
+    z-index: -1;
+}
+
+#Person4::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background:cadetblue;
+    border-radius: 50px;
+    z-index: -1;
 }
 #Hover4 {
     opacity: 0.2;
@@ -214,7 +315,33 @@ body {
     font-family: papyrus;
     transition: 2s;
     opacity: 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 10;
 }
+
+#Person5::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 200%;
+    top: -200px;
+    left: 50px;
+    background: linear-gradient(violet, turquoise, rgb(85, 85, 167), blue, rgb(128, 0, 0), yellow);
+    animation: animate 4s linear infinite forwards;
+    z-index: -1;
+}
+
+#Person5::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background:cadetblue;
+    border-radius: 50px;
+    z-index: -1;
+}
+
 #Hover5 {
     opacity: 0.2;
     background-color: white;
@@ -223,6 +350,7 @@ body {
     width: 50px;
     height: 50px;
 }
+
 
 #Hover5:hover + #Person5 { 
     transition: 0.7s;
@@ -249,7 +377,7 @@ body {
 }
 
 #Person6 {
-    position: relative; 
+    position: absolute; 
     top: 100px;
     right: -100px;
     border-radius: 50px;
@@ -262,7 +390,30 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    z-index: 10;
 }
+
+#Person6::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 200%;
+    top: -200px;
+    left: 50px;
+    background: linear-gradient(violet, turquoise, rgb(85, 85, 167), blue, rgb(128, 0, 0), yellow);
+    animation: animate 4s linear infinite forwards;
+    z-index: -1;
+}
+
+#Person6::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background:cadetblue;
+    border-radius: 50px;
+    z-index: -1;
+}
+
 #Hover6 {
     opacity: 0.2;
     background-color: white;
@@ -272,28 +423,9 @@ body {
     height: 175px;
 }
 
-#Person6:before {
-    content: '';
-    position: absolute;
-    width: 200px;
-    height: 120%;
-    background: linear-gradient(purple, yellow, red, blue);
-    animation: animate 4s linear infinite;
-    z-index: -1;
-}
-
-#Person6::after {
-    content: '';
-    position: absolute;
-    inset: 4px;
-    background: cadetblue;
-    z-index: -1;
-    border-radius: 50px;
-}
-
 #Hover6:hover + #Person6 { 
     transition: 0.7s;
-    opacity: 1;      
+    opacity: 1;
 }
     
 
@@ -302,18 +434,17 @@ body {
     height: fit-content;
     border-radius: 47px 0px 50px 0;
     margin-right: 200px;
-    z-index: 10;
 }
 
 #Person6>h1 { 
     margin-left: 20px;
-    z-index: 10;
+    
 }
 
 #Person6>p {
     max-width: 200px;
     margin-left: 20px;
-    z-index: 10;
+    
 }
 
 #Credits {
