@@ -35,15 +35,16 @@ audio {
     font-family: papyrus;
     background-clip: text;
     font-size: 100px;
-    background: linear-gradient(to right, blue blue lightblue blue blue);
+    color: teal;
+    background: linear-gradient(to right, rgb(36, 72, 230), lightblue, rgb(36, 72, 230), rgb(36, 72, 230));
+    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    animation-name: Grad;
-    animation-duration: 6s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+    animation: Grad 3s linear infinite alternate, Fade 3s running forwards;
     background-size: 400% 100%;
     text-shadow: none;
+    opacity: 0;
+    filter: blur(1px);
 }
 
 
@@ -170,5 +171,9 @@ audio {
 @keyframes Grad {
 
     0% {background-position: 0%;}
-    100% {background-position: 100%}
+    100% {background-position: 100%;}
+}
+@keyframes Fade {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
 }
