@@ -65,14 +65,11 @@ body {
 
 #Person1>h1 { 
     margin-left: 20px;
-
-    
 }
 
 #Person1>p {
     max-width: 200px;
     margin-left: 20px;
-    
 }
 #Person2 {
     position: relative;
@@ -107,18 +104,15 @@ body {
     height: fit-content;
     border-radius: 47px 0px 50px 0;
     margin-right: 200px;
-
 }
 
 #Person2>h1 { 
     margin-left: 20px;
-    
 }
 
 #Person2>p {
     max-width: 200px;
     margin-left: 20px;
-    
 }
 
 #Person3 {
@@ -141,13 +135,11 @@ body {
     left: -500px;
     width: 50px;
     height: 50px;
-
 }
 
 #Hover3:hover + #Person3 { 
     transition: 0.7s;
-    opacity: 1;
-        
+    opacity: 1;  
 }
 
 #Person3>img {
@@ -159,13 +151,11 @@ body {
 
 #Person3>h1 { 
     margin-left: 20px;
-    
 }
 
 #Person3>p{
     max-width: 200px;
     margin-left: 20px;
-    
 }
 
 
@@ -193,8 +183,7 @@ body {
 
 #Hover4:hover + #Person4 { 
     transition: 0.7s;
-    opacity: 1;
-        
+    opacity: 1;    
 }
 
 #Person4>img {
@@ -206,13 +195,11 @@ body {
 
 #Person4>h1 { 
     margin-left: 20px;
-    
 }
 
 #Person4>p {
     max-width: 200px;
     margin-left: 20px;
-    
 }
 
 #Person5 {
@@ -240,7 +227,6 @@ body {
 #Hover5:hover + #Person5 { 
     transition: 0.7s;
     opacity: 1;
-        
 }
     
 
@@ -263,8 +249,7 @@ body {
 }
 
 #Person6 {
-    position: relative;
-    border: 2px solid black; 
+    position: relative; 
     top: 100px;
     right: -100px;
     border-radius: 50px;
@@ -274,6 +259,9 @@ body {
     font-family: papyrus;
     transition: 2s;
     opacity: 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 #Hover6 {
     opacity: 0.2;
@@ -284,10 +272,28 @@ body {
     height: 175px;
 }
 
+#Person6:before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 120%;
+    background: linear-gradient(purple, yellow, red, blue);
+    animation: animate 4s linear infinite;
+    z-index: -1;
+}
+
+#Person6::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: cadetblue;
+    z-index: -1;
+    border-radius: 50px;
+}
+
 #Hover6:hover + #Person6 { 
     transition: 0.7s;
-    opacity: 1;
-        
+    opacity: 1;      
 }
     
 
@@ -296,15 +302,18 @@ body {
     height: fit-content;
     border-radius: 47px 0px 50px 0;
     margin-right: 200px;
+    z-index: 10;
 }
 
 #Person6>h1 { 
     margin-left: 20px;
+    z-index: 10;
 }
 
 #Person6>p {
     max-width: 200px;
     margin-left: 20px;
+    z-index: 10;
 }
 
 #Credits {
@@ -359,3 +368,10 @@ background-size: 200% 100%;
     }
 }
 
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    } 100% {
+        transform: rotate(360deg);
+    }
+}
