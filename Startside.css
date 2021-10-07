@@ -46,7 +46,7 @@ audio {
 }
 
 
-#link {
+#Easter_Egg {
     position: relative;
     top: 800px;
     left: 750px;
@@ -91,14 +91,12 @@ audio {
     opacity: 0;
 }
 #Puzzle1:hover {
-    background-color:burlywood;
+    background: linear-gradient(45deg,#F17C58,#358ab1,#dbb024,#27DBB1,#FFDC18,#FF3706);
+    background-size: 600% 100%;
     border-radius: 10px 10px 10px 10px;
-    animation-name: Puzzle;
-    animation-duration: 0.5s;
-    animation-timing-function: initial;
-    animation-iteration-count: 1;
-    animation-play-state: running;
-    animation-fill-mode: forwards;
+    animation: Puzzle 0.5s running forwards, Grad 5s linear ;
+    animation-direction: alternate;
+    animation-iteration-count: 1, infinite;
 }
 
 #Puzzle2 {
@@ -107,14 +105,12 @@ audio {
     opacity: 0;
 }
 #Puzzle2:hover {
-    background-color:burlywood;
+    background: linear-gradient(45deg,#F17C58,#358ab1,#dbb024,#27DBB1,#FFDC18,#FF3706);
+    background-size: 600% 100%;
     border-radius: 10px 10px 10px 10px;
-    animation-name: Puzzle;
-    animation-duration: 0.5s;
-    animation-timing-function: initial;
-    animation-iteration-count: 1;
-    animation-play-state: running;
-    animation-fill-mode: forwards;
+    animation: Puzzle 0.5s running forwards, Grad 5s linear ;
+    animation-direction: alternate;
+    animation-iteration-count: 1, infinite;
 }
 #Puzzle3 {
     top: -125px;
@@ -122,14 +118,12 @@ audio {
     opacity: 0;
 }
 #Puzzle3:hover {
-    background-color:burlywood;
+    background: linear-gradient(45deg,#F17C58,#358ab1,#dbb024,#27DBB1,#FFDC18,#FF3706);
+    background-size: 600% 100%;
     border-radius: 10px 10px 10px 10px;
-    animation-name: Puzzle;
-    animation-duration: 0.5s;
-    animation-timing-function: initial;
-    animation-iteration-count: 1;
-    animation-play-state: running;
-    animation-fill-mode: forwards;
+    animation: Puzzle 0.5s running forwards, Grad 5s linear ;
+    animation-direction: alternate;
+    animation-iteration-count: 1, infinite;
 }
 #Puzzle4{
 
@@ -139,14 +133,12 @@ audio {
 }
 
 #Puzzle4:hover {
-    background: linear-gradient(to right, red, cadetblue, yellow, purple);
+    background: linear-gradient(45deg,#F17C58,#358ab1,#dbb024,#27DBB1,#FFDC18,#FF3706);
+    background-size: 600% 100%;
     border-radius: 10px 10px 10px 10px;
-    animation-name: Puzzle, Box;
-    animation-duration: 0.5s, 1s;
-    animation-timing-function: initial, ease-in-out;
-    animation-iteration-count: 1;
-    animation-play-state: running;
-    animation-fill-mode: forwards;
+    animation: Puzzle 0.5s running forwards, Grad 5s linear ;
+    animation-direction: alternate;
+    animation-iteration-count: 1, infinite;
 }
 
 #Puzzle5 {
@@ -155,30 +147,27 @@ audio {
     opacity: 0;
 }
 #Puzzle5:hover {
-    background-color:burlywood;
+    background: linear-gradient(45deg,#F17C58,#358ab1,#dbb024,#27DBB1,#FFDC18,#FF3706);
+    background-size: 600% 100%;
     border-radius: 10px 10px 10px 10px;
-    animation-name: Puzzle;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-    animation-play-state: running;
-    animation-fill-mode: forwards;
-    cursor: grab;
+    animation: Puzzle 0.5s running forwards, Grad 5s linear ;
+    animation-direction: alternate;
+    animation-iteration-count: 1, infinite;
 }
 
+
+.Link{
+    cursor: crosshair;
+}
+.Link:hover{
+    cursor: crosshair;
+}
 @keyframes Puzzle {
     from {opacity: 0%; transform: rotate(0deg);}
     to {opacity: 100%;transform: rotate(360deg);}
 }
-@keyframes Box {
+@keyframes Grad {
 
-
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+    0% {background-position: 0%;}
+    100% {background-position: 100%}
 }
