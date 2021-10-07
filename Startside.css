@@ -32,17 +32,18 @@ audio {
     transform: translateY(-50%);
     top: 100px;
     display: flex;
-    text-shadow: 2px rgb(0, 0, 0);
     font-family: papyrus;
-    color: rgb(45, 95, 187);
+    background-clip: text;
     font-size: 100px;
-    animation: Fadein 10s;
-    animation-name: Fadein;
-    animation-duration: 5s;
-    animation-timing-function:initial;
-    animation-iteration-count: 1;
-    animation-play-state: running;
-    animation-fill-mode: forwards;
+    background: linear-gradient(to right, blue blue lightblue blue blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation-name: Grad;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-size: 400% 100%;
+    text-shadow: none;
 }
 
 
