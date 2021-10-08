@@ -5,7 +5,8 @@ body {
     background-color: black
 }
 
-
+/*Container med et bakgrunnsbildet, vi puttet dette i en div class i stedet
+for body for mer konsistent posisjonering og plassering*/
 .Main_Container {
     display:flex;
     flex-direction: row;
@@ -23,10 +24,12 @@ body {
     position: absolute;
 }
 
+/*lydfil av main-themen til Avatar, denne autoplayer og looper i startside*/
 audio {
     display: none;
 }
 
+/*Animert headliner med en liten blur, konfigurert posisjon og plassering bittelitt*/
 #Header {
     transform: translateX(-50%);
     transform: translateY(-50%);
@@ -47,13 +50,16 @@ audio {
     filter: blur(1px);
 }
 
+/*En liten overraskelse ;) Hvis du hadde problemer med å finne denne ligger den
+ca. nederst til høyre i siden*/
 #Easter_Egg {
     position: relative;
     top: 800px;
     left: 750px;
 }
 
-#Paragraf {
+/*Små effekter og scale av bildet*/
+#Egg {
     position: absolute;
     transition: transform .2s;
     left: 100px;
@@ -63,10 +69,13 @@ audio {
     height: 10px;
 }
 
-#Paragraf:hover {
+/*Hover effekt for når du finner overraskelsen */
+#Egg:hover {
     transform: scale(90);
 }
 
+/*Anker for de andre puzzle boksene som kommer videre nedover,
+endrer også fargen*/
 .Puzzles {
     position: relative;
     top: 130px;
@@ -75,15 +84,21 @@ audio {
     text-align: center;
 }
 
+/*Gir posisjonene til de andre div'ene inni .Puzzles en fast posisjon
+og regulerer høyde og bredde*/
 .Puzzles>div{
     position: absolute;
     height: 100px;
     width: 100px;
 }
+
+/*Posisjonering av start til puzzle*/
 #Start_Puzzle {
     top: 100px;
 }
 
+/*Videre nedover har vi brukt opacity 0 så man ikke kan jukse i spillet
+ellers har vi bare posisjonert boksene i varierte plasser*/
 #Puzzle1 {
     left: 210px;
     top: 325px;
@@ -114,6 +129,8 @@ audio {
     left: 225px;
     opacity: 0;
 }
+
+/*Vi la til en rgb animasjon som bakgrunn i boksen*/
 #Puzzle1:hover, #Puzzle2:hover, #Puzzle3:hover, #Puzzle4:hover, #Puzzle5:hover {
     background: linear-gradient(45deg,#F17C58,#358ab1,#dbb024,#27DBB1,#FFDC18,#FF3706);
     background-size: 600% 100%;
@@ -123,23 +140,30 @@ audio {
     animation-iteration-count: 1, infinite;
 }
 
+/*Datamusen blir endret*/
 .Link{
     cursor: crosshair;
 }
+
+/*Datamusen forblir til crosshair selv over :hover elementer*/
 .Link:hover{
     cursor: crosshair;
 }
 
+/*Animasjon for Puzzles, vi la til en 360 graders spin og en fade inn*/
 @keyframes Puzzle {
     from {opacity: 0%; transform: rotate(0deg);}
     to {opacity: 100%;transform: rotate(360deg);}
 }
 
+/*Animasjon for headliner, dette gjør det til at fargene som er i headlineren
+beveger seg*/
 @keyframes Grad {
     0% {background-position: 0%;}
     100% {background-position: 100%;}
 }
 
+/*en fade-in animasjon når siden blir loadet*/
 @keyframes Fade {
     from {opacity: 0%;}
     to {opacity: 100%;}

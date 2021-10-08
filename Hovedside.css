@@ -6,6 +6,8 @@ body {
     cursor: default;
 }
 
+/*Container for bakgrunnsbilde slik at alle elementer forblir på sin posjisjon
+uavhengig av zoom på skjerm og nettleser*/
 .Main_Container { 
     display:flex;
     flex-direction: row;
@@ -21,6 +23,7 @@ body {
     position: absolute;
 }
 
+/*Tittel for hovedside*/
 #Header {
     transform:translateX(-50%);
     transform: translateY(-50%);
@@ -43,6 +46,7 @@ body {
     background-size: 200% 100%;
 }
 
+/*Anker for alle div elementer som kommer videre nedover*/
 #Div1 {
     position: relative;
     top: 130px;
@@ -53,6 +57,8 @@ body {
     position: absolute;
 }
 
+/*Her har vi brukt en before funksjon for et rektangel med farger
+(gradient animasjon) og animert den til å spinne 360 grader inni Person1-Person6b borderet*/
 #Person1::before, #Person2::before, #Person3::before, #Person4::before, #Person5::before, #Person6::before {
     content: '';
     position: absolute;
@@ -65,6 +71,8 @@ body {
     z-index: -1;
 }
 
+/*Videre i after satte vi opp en boks med inset så den roterende
+rektangelen vil bare synes langs kanten av boksen*/
 #Person1::after, #Person2::after, #Person3::after, #Person4::after, #Person5::after, #Person6::after {
     content: '';
     position: absolute;
@@ -73,7 +81,9 @@ body {
     border-radius: 50px;
     z-index: -1;
 }
-
+/*Person1 - Person6 er om de forskjellige karakterene i filmen Avatar.
+Vi satte opp en enkel border med grunnleggende kode for 
+img, p og h1 som kommer videre nedover og satte opacity til 0*/
 #Person1 {
     position: relative;
     border: 2px solid black; 
@@ -180,28 +190,33 @@ body {
     overflow: hidden;
     z-index: 10;
 }
-
+/*Her kommer grunnen til at vi satte opacity til 0 for Person1-Person6.
+Vi har laget en boks som er knyttet til Person1-Person6
+og ved å hovre over denne boksen går opacity til 1 med en liten
+transition animasjon*/
 #Hover1:hover + #Person1, #Hover2:hover + #Person2, #Hover3:hover + #Person3, #Hover4:hover + #Person4, #Hover5:hover + #Person5, #Hover6:hover + #Person6, #Creditsboks:hover + #Credits { 
     transition: 0.7s;
     opacity: 1;
 }
 
+/*Litt konfigurering og posisjonering av GIF img i de forskjellige borderne våre,
+vi hadde problemer med å regulere høyde på bildet mens det var inni borderet*/
 #Person1>img, #Person2>img, #Person3>img, #Person4>img, #Person5>img, #Person6>img {
     width: 60%;
     height: fit-content;
     border-radius: 47px 0px 50px 0;
     margin-right: 200px;
 }
-
+/*Posisjonering av headliner i border*/
 #Person1>h1, #Person2>h1, #Person3>h1, #Person4>h1, #Person5>h1, #Person6>h1 { 
     margin-left: 20px;
 }
-
+/*Posisjonering av paragrafet*/
 #Person1>p, #Person2>p, #Person3>p, #Person4>p, #Person5>p, #Person6>p {
     max-width: 200px;
     margin-left: 20px;
 }
-
+/*Posisjonering av hover boksene og finpussing av de*/
 #Hover1 {
     background-color: white;
     border-radius: 15px;
@@ -262,6 +277,8 @@ body {
     height: 175px;
 }
 
+/*Samme utgangspunkt som Person1-Person6, vi gjemte Credits med opacity 0
+og ordnet med posisjonering og teksten*/
 #Credits {
     position: absolute;
     width: 320px;
@@ -275,6 +292,8 @@ body {
     opacity: 0;
 }
 
+/*Satte opp en animasjon på teksten i Credits som beveger flere farger
+fra venstre til høyre*/
 #Credits>p {
     background: linear-gradient(to right, red, cadetblue, yellow, purple);
     -webkit-background-clip: text;
@@ -288,6 +307,8 @@ body {
     position: absolute;
 }
 
+/*Boks for hover effekt så Credits kommer frem (Vi komprimerte dette inn med
+alle de andre :hover boksene)*/
 #Creditsboks {
     position: absolute;
     background-color: white;
@@ -299,6 +320,7 @@ body {
     left: 1775px;
 }
 
+/*Her har vi animasjonen for bevegelsen av fargene som vi brukte i Credits*/
 @keyframes Rainbow {
     0% {
         background-position: 0% 50%;
@@ -311,6 +333,7 @@ body {
     }
 }
 
+/*Animasjonen for before (roterer 360 grader)*/
 @keyframes animate {
     0% {
         transform: rotate(0deg);
