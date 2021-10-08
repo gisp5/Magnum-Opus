@@ -310,7 +310,6 @@ fra venstre til høyre*/
 /*Boks for hover effekt så Credits kommer frem (Vi komprimerte dette inn med
 alle de andre :hover boksene)*/
 #Creditsboks {
-    position: absolute;
     background-color: white;
     border-radius: 15px;
     opacity: 0.2;
