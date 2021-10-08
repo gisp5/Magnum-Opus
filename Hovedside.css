@@ -105,7 +105,7 @@ img, p og h1 som kommer videre nedover og satte opacity til 0*/
 #Person2 {
     position: relative;
     border: 2px solid black; 
-    top: 550px;
+    top: 350px;
     left: 325px;
     border-radius: 50px;
     width: 250px;
@@ -261,8 +261,8 @@ vi hadde problemer med å regulere høyde på bildet mens det var inni borderet*
     opacity: 0.2;
     background-color: white;
     border-radius: 15px;
-    top: 550px;
-    right: 632px;
+    top: 568px;
+    right: 650px;
     width: 50px;
     height: 50px;
 }
