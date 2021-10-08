@@ -21,6 +21,28 @@ body {
     position: absolute;
 }
 
+#Header {
+    transform:translateX(-50%);
+    transform: translateY(-50%);
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    font-size: 40px;
+    font-family: Papyrus;
+    color: cadetblue;
+    filter: blur(1px);
+    background: linear-gradient(to right, cadetblue, turquoise, lightskyblue, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation-name: Rainbow;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    background-size: 200% 100%;
+}
+
 #Div1 {
     position: relative;
     top: 130px;
