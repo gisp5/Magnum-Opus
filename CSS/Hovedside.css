@@ -15,7 +15,7 @@ uavhengig av zoom på skjerm og nettleser*/
     height: 1080px;
     position: relative;
     justify-content: center;
-    background-image: url(images/Hovedside.jpg);
+    background-image: url(../images/Hovedside.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -202,8 +202,8 @@ transition animasjon*/
 /*Litt konfigurering og posisjonering av GIF img i de forskjellige borderne våre,
 vi hadde problemer med å regulere høyde på bildet mens det var inni borderet*/
 #Person1>img, #Person2>img, #Person3>img, #Person4>img, #Person5>img, #Person6>img {
-    width: 60%;
-    height: fit-content;
+    max-width: 200px;
+    max-height: 170px;
     border-radius: 47px 0px 50px 0;
     margin-right: 200px;
 }

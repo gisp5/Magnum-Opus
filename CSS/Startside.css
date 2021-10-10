@@ -14,7 +14,7 @@ for body for mer konsistent posisjonering og plassering*/
     height: 1080px;
     position: relative;
     justify-content: center;
-    background-image: url(images/Startside.jpg);
+    background-image: url(../images/Startside.jpg);
     background-repeat: no-repeat;
     background-position: center;
     cursor: crosshair;
