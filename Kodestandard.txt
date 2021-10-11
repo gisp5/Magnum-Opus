@@ -1,6 +1,7 @@
 # Magnum-Opus
 Arbeidskrav i Kreativt Webprosjekt
-
+Av Bendik Buran, Andi Imeri, Marcus Koh
+ 
 Kodestandarder:
 
 _(understrek) på naming av ID og Class

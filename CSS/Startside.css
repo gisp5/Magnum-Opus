@@ -19,14 +19,9 @@ for body for mer konsistent posisjonering og plassering*/
     background-position: center;
     cursor: crosshair;
 }
-
+/*Dette gjør alle elementene inne i main container til Position: absolute;*/
 .Main_Container>* {
     position: absolute;
-}
-
-/*lydfil av main-themen til Avatar, denne autoplayer og looper i startside*/
-audio {
-    display: none;
 }
 
 /*Animert headliner med en liten blur, konfigurert posisjon og plassering bittelitt*/
