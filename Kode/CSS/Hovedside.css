@@ -15,7 +15,7 @@ uavhengig av zoom på skjerm og nettleser*/
     height: 1080px;
     position: relative;
     justify-content: center;
-    background-image: url(../images/Hovedside.jpg);
+    background-image: url(/Media/images/Hovedside.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
