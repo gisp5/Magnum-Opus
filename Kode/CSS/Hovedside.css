@@ -36,10 +36,10 @@ uavhengig av zoom på skjerm og nettleser*/
     color: cadetblue;
     filter: blur(1px);
     background: linear-gradient(to right, cadetblue, turquoise, lightskyblue, blue);
-    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     animation-name: Rainbow;
+    -webkit-background-clip: text;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-duration: 10s;
